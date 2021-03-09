@@ -18,6 +18,7 @@ Será aberto o site http://localhost:3000/
 O saldo é calculado no momento em que o extrato é salvo no banco de dados. * No primeiro momento, para gravação do extrato no banco de dados, é necessário ter uma conta bancária já cadastrada.
 Ao importar vários extratos, o saldo será incrementado de acordo com as entradas/saidas.
 
-Um recurso adicional é a visualização da cotação de 3 moedas no rodapé da tela.
+Um recurso adicional é a visualização da cotação de 3 moedas no rodapé da tela. Esse recurso consome uma api com a contação em tempo real dessas moedas.
+
 Euro, Dollar, BitCoin
 ![image](https://user-images.githubusercontent.com/39346584/110537781-e614b800-8101-11eb-96a4-d06db6524e25.png)
