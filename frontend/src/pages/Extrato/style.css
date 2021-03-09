@@ -1,0 +1,136 @@
+body{
+  background-color: #EC7000;
+}
+#div-tbl-movimentos{
+  overflow-y: auto;  
+  height:350px;
+  max-height:350px;
+  min-height: 350px;  
+  display: flex;
+  justify-content: first baseline;
+  top: 0;
+}
+#tbl-dados-conta, #div-button-gravar{   
+  width: 100%;
+  display: flex;
+}
+
+#tbl-dados-conta th{   
+  padding-right: 3px;
+}
+
+#div-cotacao-moeda{
+  display: flex;
+  flex-direction: column;   
+  width: 100%;
+  margin-bottom: 10px;  
+}
+#div-dados-banco{
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+}
+
+#div-dt-cotacao{
+  display: flex;
+  justify-content: space-between;  
+  flex-direction: row;
+}
+
+#div-button-gravar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#div-button-importar{
+  display: flex;  
+  align-items: center;
+}
+
+#div-dropzone{
+  color: #FFFF00; 
+}
+
+#div-title-importar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+}
+#div-tabelas{
+  display: flex;
+  justify-content: center;    
+  background-color: #003399 ;
+  border-bottom: ridge;
+}
+#div-header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;  
+  padding-bottom: 10px;
+  border-bottom-style: ridge;       
+}
+
+#div-importar-extrato{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;     
+  width: 100%;
+  margin-bottom: 10px; 
+  border-bottom-style: ridge; 
+  padding-bottom: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;  
+  margin-top: 20px;
+  margin-bottom: 10px; 
+  background-color: #003399 ;
+}
+
+#btn-atualizar{
+  height: 30px;
+  margin-top: 10px;
+}
+
+#div-cotacao-dollar, #div-cotacao-euro, #div-cotacao-bitcoin{  
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;  
+  background-color: #EC7000;
+}
+
+h1{
+  font-size: 18px;
+}
+
+#div-dados-cotacao{
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  position: relative;
+  margin-top: 10px; 
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+  background-color: #003399; 
+}
+section.positioned {
+  position: absolute;
+}
+
+th div{
+  position: absolute;
+  top: 0;   
+}
+
+td, th, h1{
+  color:#FFFF00;
+}
+
+

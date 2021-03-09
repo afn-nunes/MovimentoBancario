@@ -1,0 +1,311 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+	<SIGNONMSGSRSV1>
+		<SONRS>
+			<STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+			</STATUS>
+			<DTSERVER>00000000000000
+			<LANGUAGE>POR
+		</SONRS>
+	</SIGNONMSGSRSV1>
+	<BANKMSGSRSV1>
+		<STMTTRNRS>
+			<TRNUID>1001
+			<STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+			</STATUS>
+			<STMTRS>
+				<CURDEF>BRL
+				<BANKACCTFROM>
+					<BANKID>0237
+					<ACCTID>7130/6910
+					<ACCTTYPE>CHECKING
+				</BANKACCTFROM>
+				<BANKTRANLIST>
+					<DTSTART>20200401000000
+					<DTEND>20200430000000
+					<STMTTRN>
+						<TRNTYPE>CREDIT
+						<DTPOSTED>20200401000000[-03:EST]
+						<TRNAMT>100.00
+						<FITID>N10080:01/04/20:100.0:7130912: Transf.aut. c/c: Carlos Rafael Simonelli c. c. so
+						<CHECKNUM>7130912
+						<MEMO>Transf.aut. c/c Carlos Rafael Simonelli c. c. so
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>CREDIT
+						<DTPOSTED>20200401000000[-03:EST]
+						<TRNAMT>23.00
+						<FITID>N1009D:01/04/20:23.0:2801933: Transf.para c/c: Adriano Barbosa do Nascimento
+						<CHECKNUM>2801933
+						<MEMO>Transf.para c/c Adriano Barbosa do Nascimento
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>CREDIT
+						<DTPOSTED>20200402000000[-03:EST]
+						<TRNAMT>30.00
+						<FITID>N100BA:02/04/20:30.0:7130626: Transf.aut. c/c: Sandro Darrieux Dalbouni
+						<CHECKNUM>7130626
+						<MEMO>Transf.aut. c/c Sandro Darrieux Dalbouni
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200402000000[-03:EST]
+						<TRNAMT>-30.00
+						<FITID>N100D7:02/04/20:-30.0:0047319: Visa Electron: Mercpago    *pizzafo
+						<CHECKNUM>0047319
+						<MEMO>Visa Electron Mercpago *pizzafo
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200402000000[-03:EST]
+						<TRNAMT>-76.00
+						<FITID>N100F5:02/04/20:-76.0:0712063: Visa Electron: Mercado Guti
+						<CHECKNUM>0712063
+						<MEMO>Visa Electron Mercado Guti
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200402000000[-03:EST]
+						<TRNAMT>-39.99
+						<FITID>N10113:02/04/20:-39.99:6961357: Conta Telefone: Bradesco C-vivo/rj
+						<CHECKNUM>6961357
+						<MEMO>Conta Telefone Bradesco C-vivo/rj
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>CREDIT
+						<DTPOSTED>20200403000000[-03:EST]
+						<TRNAMT>440.00
+						<FITID>N10131:03/04/20:440.0:0307130: Receb Pagfor: Picpay Servicos S.a
+						<CHECKNUM>0307130
+						<MEMO>Receb Pagfor Picpay Servicos S.a
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200403000000[-03:EST]
+						<TRNAMT>-4.81
+						<FITID>N1014E:03/04/20:-4.81:0004600: Visa Electron: Mercado Guti
+						<CHECKNUM>0004600
+						<MEMO>Visa Electron Mercado Guti
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200403000000[-03:EST]
+						<TRNAMT>-80.02
+						<FITID>N1016C:03/04/20:-80.02:0030386: Visa Electron: Rede Economia de
+						<CHECKNUM>0030386
+						<MEMO>Visa Electron Rede Economia de
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200403000000[-03:EST]
+						<TRNAMT>-49.00
+						<FITID>N1018A:03/04/20:-49.0:0030569: Visa Electron: Supermercado Rio
+						<CHECKNUM>0030569
+						<MEMO>Visa Electron Supermercado Rio
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200403000000[-03:EST]
+						<TRNAMT>-316.00
+						<FITID>N101A8:03/04/20:-316.0:0712131: Visa Electron: Mercado Guti
+						<CHECKNUM>0712131
+						<MEMO>Visa Electron Mercado Guti
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>CREDIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>2627.22
+						<FITID>N101C6:06/04/20:2627.22:0607130: Trans Sal p/c/c: Alterdata Tecnologia em Informat
+						<CHECKNUM>0607130
+						<MEMO>Trans Sal p/c/c Alterdata Tecnologia em Informat
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-381.71
+						<FITID>N101E3:06/04/20:-381.71:0000096: Pagto Cobranca: Caixa
+						<CHECKNUM>0000096
+						<MEMO>Pagto Cobranca Caixa
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-1332.86
+						<FITID>N10201:06/04/20:-1332.86:0000097: Pagto Cobranca: Nubank
+						<CHECKNUM>0000097
+						<MEMO>Pagto Cobranca Nubank
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-90.00
+						<FITID>N1021F:06/04/20:-90.0:0000098: Pagto Cobranca: Sky
+						<CHECKNUM>0000098
+						<MEMO>Pagto Cobranca Sky
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-6.40
+						<FITID>N1023D:06/04/20:-6.4:0210775: Visa Electron: Padaria m Principal
+						<CHECKNUM>0210775
+						<MEMO>Visa Electron Padaria m Principal
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-413.26
+						<FITID>N1025B:06/04/20:-413.26:0311024: Visa Electron: Pao de Acucar lj
+						<CHECKNUM>0311024
+						<MEMO>Visa Electron Pao de Acucar lj
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-50.00
+						<FITID>N10279:06/04/20:-50.0:0318211: Visa Electron: Auto P.r.h.impera
+						<CHECKNUM>0318211
+						<MEMO>Visa Electron Auto P.r.h.impera
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-9.99
+						<FITID>N10297:06/04/20:-9.99:0462507: Visa Electron: Limpeza Mania
+						<CHECKNUM>0462507
+						<MEMO>Visa Electron Limpeza Mania
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-40.84
+						<FITID>N102B5:06/04/20:-40.84:6961357: Conta Telefone: Bradesco C-vivo/rj
+						<CHECKNUM>6961357
+						<MEMO>Conta Telefone Bradesco C-vivo/rj
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200406000000[-03:EST]
+						<TRNAMT>-154.28
+						<FITID>N102D3:06/04/20:-154.28:6972926: Conta de Luz: Bradesco C-ampla/rj
+						<CHECKNUM>6972926
+						<MEMO>Conta de Luz Bradesco C-ampla/rj
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200407000000[-03:EST]
+						<TRNAMT>-53.58
+						<FITID>N102F1:07/04/20:-53.58:0362153: Visa Electron: Inowacao Loucas e
+						<CHECKNUM>0362153
+						<MEMO>Visa Electron Inowacao Loucas e
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200409000000[-03:EST]
+						<TRNAMT>-28.00
+						<FITID>N1030F:09/04/20:-28.0:0107634: Visa Electron: Recanto do Mineiro
+						<CHECKNUM>0107634
+						<MEMO>Visa Electron Recanto do Mineiro
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>CREDIT
+						<DTPOSTED>20200413000000[-03:EST]
+						<TRNAMT>1520.00
+						<FITID>N1032D:13/04/20:1520.0:5221784: dp Dinh c/c Bdn: Ag02801maq005221seq03784
+						<CHECKNUM>5221784
+						<MEMO>dp Dinh c/c Bdn Ag02801maq005221seq03784
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200413000000[-03:EST]
+						<TRNAMT>-8.00
+						<FITID>N1034A:13/04/20:-8.0:0190581: Visa Electron: Tix Lanches
+						<CHECKNUM>0190581
+						<MEMO>Visa Electron Tix Lanches
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200413000000[-03:EST]
+						<TRNAMT>-29.00
+						<FITID>N10368:13/04/20:-29.0:0256958: Visa Electron: Sabor de Frango
+						<CHECKNUM>0256958
+						<MEMO>Visa Electron Sabor de Frango
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>CREDIT
+						<DTPOSTED>20200414000000[-03:EST]
+						<TRNAMT>60.00
+						<FITID>N10386:14/04/20:60.0:1407130: Receb Pagfor: Picpay Servicos S.a
+						<CHECKNUM>1407130
+						<MEMO>Receb Pagfor Picpay Servicos S.a
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200414000000[-03:EST]
+						<TRNAMT>-364.19
+						<FITID>N103A3:14/04/20:-364.19:4440105: Parc Cred Pess: Contr 377459072 Parc 008/012
+						<CHECKNUM>4440105
+						<MEMO>Parc Cred Pess Contr 377459072 Parc 008/012
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200416000000[-03:EST]
+						<TRNAMT>-22.90
+						<FITID>N103C1:16/04/20:-22.9:0189045: Visa Electron: Mercado e Padaria pa
+						<CHECKNUM>0189045
+						<MEMO>Visa Electron Mercado e Padaria pa
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200416000000[-03:EST]
+						<TRNAMT>-8.00
+						<FITID>N103DF:16/04/20:-8.0:0211562: Visa Electron: Padaria m Principal
+						<CHECKNUM>0211562
+						<MEMO>Visa Electron Padaria m Principal
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200416000000[-03:EST]
+						<TRNAMT>-31.08
+						<FITID>N103FD:16/04/20:-31.08:0620429: Visa Electron: Jahara Tecidos
+						<CHECKNUM>0620429
+						<MEMO>Visa Electron Jahara Tecidos
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200417000000[-03:EST]
+						<TRNAMT>-160.00
+						<FITID>N10022:17/04/20:-160.0:0078358: Cartao Visa Electron: Sos Madeiras
+						<CHECKNUM>0078358
+						<MEMO>Cartao Visa Electron Sos Madeiras
+					</STMTTRN>
+					<STMTTRN>
+						<TRNTYPE>DEBIT
+						<DTPOSTED>20200420000000[-03:EST]
+						<TRNAMT>-41.40
+						<FITID>N10040:20/04/20:-41.4:0324546: Cartao Visa Electron:
+						<CHECKNUM>0324546
+						<MEMO>Cartao Visa Electron 
+					</STMTTRN>
+				</BANKTRANLIST>
+				<LEDGERBAL>
+					<BALAMT>1183.86
+					<DTASOF>20200416000000[-03:EST]
+				</LEDGERBAL>
+			</STMTRS>
+		</STMTTRNRS>
+	</BANKMSGSRSV1>
+</OFX>
